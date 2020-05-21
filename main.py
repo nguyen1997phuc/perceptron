@@ -1,4 +1,11 @@
 # 1. PLA có thể cho vô số nghiệm khác nhau
+# nếu hai class là linearly separable thì có vô số đường thằng phân cách 2 class đó
+# Linear separable có nghĩa là một hyperplane (siêu phẳng), hyperplane này sẽ chia tập dữ liệu thành 2 phần sao cho tất
+# cả các dữ liệu thuộc class thứ nhất sẽ nằm về một phía, và tất cả các dữ liệu thuộc class thứ hai sẽ nằm về một phía
+
+# Trong trường hợp không hội tụ với dữ liệu gần linearly separable, hay nói cách khác là chi phí (cost) phải bỏ ra để
+# tính toán sao cho dãy hội tụ là rất lớn, ta có thể cải tiến PLA theo thuật toán Pocket Algorithm, và giới hạn số lần
+# lặp của PLA như sau
 
 import numpy as np
 
